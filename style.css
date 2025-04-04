@@ -7,3 +7,45 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top-menu-bar{
+    display: flex;
+    background-color: #1f2397;
+
+}
+
+.section-01{
+    display: flex;
+    background-color: #1f2397;
+
+}
+
+.section-02{
+    display: flex;
+    background-color: white;
+
+}
+
+.section-03{
+    display: flex;
+    background-color: #E5E7EB;
+
+}
+
+.section-04 {
+    display: flex;
+    background-color: white;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2397;
+
+}
