@@ -11,41 +11,66 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    margin:0;
 }
 
 .top-menu-bar{
     display: flex;
+    flex: 0 1 50px;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1f2397;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
 
+.top-menu-bar a {
+    font-size: 10px;
+    padding: 5px
+}
+
+.top-menu-bar h4{
+    margin-right: auto;
 }
 
 .section-01{
     display: flex;
+    flex:1;
     background-color: #1f2397;
 
 }
 
 .section-02{
     display: flex;
+    flex: 1;
     background-color: white;
 
 }
 
 .section-03{
     display: flex;
+    flex: 1;
     background-color: #E5E7EB;
 
 }
 
 .section-04 {
     display: flex;
+    flex: 1;
     background-color: white;
 
 }
 
 .footer {
     display: flex;
+    flex: 0 1 50px;
     background-color: #1f2397;
 
 }
