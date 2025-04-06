@@ -32,19 +32,63 @@ html, body{
 }
 
 .top-menu-bar a {
-    font-size: 10px;
+    font-size: 18px;
     padding: 5px
 }
 
 .top-menu-bar h4{
     margin-right: auto;
+    font-size: 24px;
 }
 
 .section-01{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     flex:1;
     background-color: #1f2397;
 
+}
+
+.section-01-left{
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    color: white;
+    padding: 0px;
+    
+}
+
+.section-01-left h4{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-01-left p{
+    margin:  0;
+    font-size: 24px;
+}
+
+.section-01-left button{
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.section-01-img{
+    display: flex;
+    flex: 1;
+    width: 100px;
+    height: auto;
 }
 
 .section-02{
