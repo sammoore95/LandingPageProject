@@ -21,7 +21,7 @@ html, body{
 
 .top-menu-bar{
     display: flex;
-    flex: 0 1 50px;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2397;
@@ -49,7 +49,7 @@ html, body{
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    flex:1;
+    flex: 1;
     background-color: #1f2397;
 
 }
@@ -57,10 +57,10 @@ html, body{
 .section-01-left{
     display: flex;
     flex-direction: column;
-
     flex: 1;
     color: white;
-    padding: 0px;
+    padding-left: 5px;
+    margin-right: 0px;
     
 }
 
@@ -87,34 +87,123 @@ html, body{
 .section-01-img{
     display: flex;
     flex: 1;
-    width: 100px;
+    margin-left: 0;
+    max-width: 200px;
     height: auto;
 }
 
 .section-02{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1;
     background-color: white;
 
 }
 
+.section-02-imgs {
+    display: flex;
+    align-items: center;
+}
+
+.section-02-imgs img {
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-02-imgs div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .section-03{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
     flex: 1;
     background-color: #E5E7EB;
 
 }
 
-.section-04 {
+.section-03 p{
+    text-align: center;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+.class-author{
     display: flex;
     flex: 1;
+    justify-content: flex-end;
+    margin-top: 0px;
+
+}
+
+.section-03 h5{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left:0px;
+    margin: 0px;
+}
+
+.section-04 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 50px;
+
     background-color: white;
 
 }
 
+.section-04-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+}
+
+.section-04-box button{
+    background-color: #3882F6;
+    border-color: white 2px;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.section-04-box h4{
+    padding-bottom: 1px;
+    margin: 0px;
+}
+
+.section-04-box p{
+    padding-bottom: 1px;
+    margin: 0px;
+}
+
 .footer {
     display: flex;
-    flex: 0 1 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     background-color: #1f2397;
+    color: white;
 
 }
